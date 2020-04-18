@@ -1,0 +1,77 @@
+body{
+    background: white(192, 193, 209);
+    margin: 0;
+    padding: 0;
+}
+header{
+    background: black;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("songs.jpg");
+    color: blueviolet
+    background-size: 150%;
+    background-position: center;
+    height: 400px;
+    padding: 20px;
+    margin: 10px 0;
+    text-align: center;
+}
+
+header .logo a{
+   background-repeat: no-repeat;
+   color: blueviolet;
+   display: inline-block;
+   height: 130px;
+   text-indent: -99999999px;
+   width: 300px;
+}
+.features{
+    background: black(252, 125, 7);
+    font-family:Arial, Helvetica, sans-serif;
+    color: black;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+}
+.features figure{
+   margin: left;
+   text-align: center;
+   text-transistors: uppercase;   
+}
+.features figure img{
+   border-radius: 50%;
+   width: 200px;
+}
+.features figure{
+   margin: center;
+   text-align: center;
+   text-transistors: uppercase;   
+}
+.features figure img{
+   border-radius: 50%;
+   width: 200px;
+}
+.features figure{
+   margin: right;
+   text-align: center;
+   text-transistors: uppercase;   
+}
+.features figure img{
+   border-radius: 50%;
+   width: 200px;
+}
+ul{
+   margin: 0;
+   padding: 0;
+   list-style-type: none;
+}
+li{
+   display: inline-block;
+   margin-right: 20px
+}
+footer{
+   background: black;
+   color: white;
+   font-family:Arial, Helvetica, sans-serif;
+   padding: 20px;
+   margin: 10px 0;
+}
